@@ -1,0 +1,29 @@
+*** Measurement Settings ***
+  Batch size: 1
+  Service Kind: TRITON
+  Using "time_windows" mode for stabilization
+  Stabilizing using average throughput
+  Measurement window: 5000 msec
+  Using uniform distribution on request generation
+  Using asynchronous calls for inference
+
+Request Rate: 320 inference requests per second
+Warning: Request latency is not stabilizing. Please try lowering the request rate.
+  Client: 
+    Request count: 6543
+    Avg send request rate: 319.15 infer/sec
+    [WARNING] Perf Analyzer was not able to keep up with the desired request rate. 2.97% of the requests were delayed. 
+    Throughput: 319.99 infer/sec
+    Avg latency: 14858 usec (standard deviation 18119 usec)
+    p50 latency: 5576 usec
+    p90 latency: 43377 usec
+    p95 latency: 51571 usec
+    p99 latency: 68854 usec
+    Avg HTTP time: 14634 usec (send/recv 478 usec + response wait 14156 usec)
+  Server: 
+    Inference count: 6542
+    Execution count: 6542
+    Successful request count: 6542
+    Avg request latency: 11871 usec (overhead 19 usec + queue 8871 usec + compute input 84 usec + compute infer 2885 usec + compute output 11 usec)
+Inferences/Second vs. Client Average Batch Latency
+Request Rate: 320.00, throughput: 319.99 infer/sec, latency 14858 usec

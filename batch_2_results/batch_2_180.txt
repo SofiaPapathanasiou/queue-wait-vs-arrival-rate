@@ -1,0 +1,26 @@
+*** Measurement Settings ***
+  Batch size: 1
+  Service Kind: TRITON
+  Using "time_windows" mode for stabilization
+  Stabilizing using average throughput
+  Measurement window: 5000 msec
+  Using poisson distribution on request generation
+  Using asynchronous calls for inference
+
+Request Rate: 180 inference requests per second
+  Client: 
+    Request count: 3419
+    Throughput: 182.254 infer/sec
+    Avg latency: 8152 usec (standard deviation 3273 usec)
+    p50 latency: 7372 usec
+    p90 latency: 11742 usec
+    p95 latency: 12943 usec
+    p99 latency: 16681 usec
+    Avg HTTP time: 8067 usec (send/recv 407 usec + response wait 7660 usec)
+  Server: 
+    Inference count: 3419
+    Execution count: 3038
+    Successful request count: 3419
+    Avg request latency: 5581 usec (overhead 25 usec + queue 1835 usec + compute input 143 usec + compute infer 3563 usec + compute output 13 usec)
+Inferences/Second vs. Client Average Batch Latency
+Request Rate: 180, throughput: 182.254 infer/sec, latency 8152 usec

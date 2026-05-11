@@ -1,0 +1,48 @@
+{
+    "model_stats": [
+        {
+            "name": "food_classifier_onnx",
+            "version": "1",
+            "last_inference": 0,
+            "inference_count": 0,
+            "execution_count": 0,
+            "inference_stats": {
+                "success": {
+                    "count": 0,
+                    "ns": 0
+                },
+                "fail": {
+                    "count": 0,
+                    "ns": 0
+                },
+                "queue": {
+                    "count": 0,
+                    "ns": 0
+                },
+                "compute_input": {
+                    "count": 0,
+                    "ns": 0
+                },
+                "compute_infer": {
+                    "count": 0,
+                    "ns": 0
+                },
+                "compute_output": {
+                    "count": 0,
+                    "ns": 0
+                },
+                "cache_hit": {
+                    "count": 0,
+                    "ns": 0
+                },
+                "cache_miss": {
+                    "count": 0,
+                    "ns": 0
+                }
+            },
+            "response_stats": {},
+            "batch_stats": [],
+            "memory_usage": []
+        }
+    ]
+}
