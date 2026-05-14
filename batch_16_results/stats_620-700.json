@@ -1,0 +1,289 @@
+{
+    "model_stats": [
+        {
+            "name": "food_classifier_onnx",
+            "version": "1",
+            "last_inference": 1778515830018,
+            "inference_count": 578275,
+            "execution_count": 299693,
+            "inference_stats": {
+                "success": {
+                    "count": 578275,
+                    "ns": 49171375714918
+                },
+                "fail": {
+                    "count": 0,
+                    "ns": 0
+                },
+                "queue": {
+                    "count": 578275,
+                    "ns": 45659834160615
+                },
+                "compute_input": {
+                    "count": 578275,
+                    "ns": 296013625140
+                },
+                "compute_infer": {
+                    "count": 578275,
+                    "ns": 3181821949549
+                },
+                "compute_output": {
+                    "count": 578275,
+                    "ns": 9747750594
+                },
+                "cache_hit": {
+                    "count": 0,
+                    "ns": 0
+                },
+                "cache_miss": {
+                    "count": 0,
+                    "ns": 0
+                }
+            },
+            "response_stats": {},
+            "batch_stats": [
+                {
+                    "batch_size": 1,
+                    "compute_input": {
+                        "count": 166381,
+                        "ns": 15790088190
+                    },
+                    "compute_infer": {
+                        "count": 166381,
+                        "ns": 544988304421
+                    },
+                    "compute_output": {
+                        "count": 166381,
+                        "ns": 2224409174
+                    }
+                },
+                {
+                    "batch_size": 2,
+                    "compute_input": {
+                        "count": 67565,
+                        "ns": 18818358405
+                    },
+                    "compute_infer": {
+                        "count": 67565,
+                        "ns": 214615095583
+                    },
+                    "compute_output": {
+                        "count": 67565,
+                        "ns": 931734521
+                    }
+                },
+                {
+                    "batch_size": 3,
+                    "compute_input": {
+                        "count": 33393,
+                        "ns": 13762511037
+                    },
+                    "compute_infer": {
+                        "count": 33393,
+                        "ns": 107359612187
+                    },
+                    "compute_output": {
+                        "count": 33393,
+                        "ns": 497268029
+                    }
+                },
+                {
+                    "batch_size": 4,
+                    "compute_input": {
+                        "count": 16666,
+                        "ns": 9349506606
+                    },
+                    "compute_infer": {
+                        "count": 16666,
+                        "ns": 71001564199
+                    },
+                    "compute_output": {
+                        "count": 16666,
+                        "ns": 275583505
+                    }
+                },
+                {
+                    "batch_size": 5,
+                    "compute_input": {
+                        "count": 7541,
+                        "ns": 5439559897
+                    },
+                    "compute_infer": {
+                        "count": 7541,
+                        "ns": 42181053814
+                    },
+                    "compute_output": {
+                        "count": 7541,
+                        "ns": 137616548
+                    }
+                },
+                {
+                    "batch_size": 6,
+                    "compute_input": {
+                        "count": 3363,
+                        "ns": 2995981575
+                    },
+                    "compute_infer": {
+                        "count": 3363,
+                        "ns": 26741430816
+                    },
+                    "compute_output": {
+                        "count": 3363,
+                        "ns": 69131767
+                    }
+                },
+                {
+                    "batch_size": 7,
+                    "compute_input": {
+                        "count": 1505,
+                        "ns": 1628091139
+                    },
+                    "compute_infer": {
+                        "count": 1505,
+                        "ns": 19195247530
+                    },
+                    "compute_output": {
+                        "count": 1505,
+                        "ns": 34084143
+                    }
+                },
+                {
+                    "batch_size": 8,
+                    "compute_input": {
+                        "count": 683,
+                        "ns": 878294183
+                    },
+                    "compute_infer": {
+                        "count": 683,
+                        "ns": 15140317275
+                    },
+                    "compute_output": {
+                        "count": 683,
+                        "ns": 17374613
+                    }
+                },
+                {
+                    "batch_size": 9,
+                    "compute_input": {
+                        "count": 364,
+                        "ns": 538859550
+                    },
+                    "compute_infer": {
+                        "count": 364,
+                        "ns": 13375758394
+                    },
+                    "compute_output": {
+                        "count": 364,
+                        "ns": 10157953
+                    }
+                },
+                {
+                    "batch_size": 10,
+                    "compute_input": {
+                        "count": 215,
+                        "ns": 363658171
+                    },
+                    "compute_infer": {
+                        "count": 215,
+                        "ns": 3035066107
+                    },
+                    "compute_output": {
+                        "count": 215,
+                        "ns": 6847500
+                    }
+                },
+                {
+                    "batch_size": 11,
+                    "compute_input": {
+                        "count": 147,
+                        "ns": 286864578
+                    },
+                    "compute_infer": {
+                        "count": 147,
+                        "ns": 2663690951
+                    },
+                    "compute_output": {
+                        "count": 147,
+                        "ns": 5156185
+                    }
+                },
+                {
+                    "batch_size": 12,
+                    "compute_input": {
+                        "count": 128,
+                        "ns": 271901977
+                    },
+                    "compute_infer": {
+                        "count": 128,
+                        "ns": 12370892305
+                    },
+                    "compute_output": {
+                        "count": 128,
+                        "ns": 4739172
+                    }
+                },
+                {
+                    "batch_size": 13,
+                    "compute_input": {
+                        "count": 68,
+                        "ns": 155748918
+                    },
+                    "compute_infer": {
+                        "count": 68,
+                        "ns": 12226970787
+                    },
+                    "compute_output": {
+                        "count": 68,
+                        "ns": 2851504
+                    }
+                },
+                {
+                    "batch_size": 14,
+                    "compute_input": {
+                        "count": 76,
+                        "ns": 194471153
+                    },
+                    "compute_infer": {
+                        "count": 76,
+                        "ns": 11839604190
+                    },
+                    "compute_output": {
+                        "count": 76,
+                        "ns": 3508908
+                    }
+                },
+                {
+                    "batch_size": 15,
+                    "compute_input": {
+                        "count": 56,
+                        "ns": 153295249
+                    },
+                    "compute_infer": {
+                        "count": 56,
+                        "ns": 2259440971
+                    },
+                    "compute_output": {
+                        "count": 56,
+                        "ns": 2606284
+                    }
+                },
+                {
+                    "batch_size": 16,
+                    "compute_input": {
+                        "count": 1542,
+                        "ns": 4897072980
+                    },
+                    "compute_infer": {
+                        "count": 1542,
+                        "ns": 17974671721
+                    },
+                    "compute_output": {
+                        "count": 1542,
+                        "ns": 74156364
+                    }
+                }
+            ],
+            "memory_usage": []
+        }
+    ]
+}
